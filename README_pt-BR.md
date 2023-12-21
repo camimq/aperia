@@ -1,7 +1,5 @@
 [🔃 (go-to 🇺🇸) English Version](https://github.com/camimq/landing_page/blob/main/README.md)
 
-[:globe_with_meridians: Confira este projeto live](https://apeperia-one.vercel.app/)
-
 <p align="center"><img src="./img/logo-apeperia.svg"></p>
 
 # Projeto Apperia
