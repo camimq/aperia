@@ -1,0 +1,54 @@
+.destaques{
+    background-color: var(--azul-claro);
+    
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.destaques__titulo{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+.destaques__painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+.destaques__painel-imagem{
+    width: 100vw;
+    max-width: 600px; /* garante que a imagem não tenha largura maior que 600px. O max-width, vai sempre precisar ser em unidade de medida fixa. */
+
+    box-shadow: 0, 2px, 10px, 5px #00000020; /* #00000020 é uma transparência com hexadecimal. */
+
+    margin-bottom: .5rem
+}
+
+.destaques_painel.texto{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+/* line-height: normal
+
+>> The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.
+
+>> normal
+Depends on the user agent. Desktop browsers (including Firefox) use a default value of roughly 1.2, depending on the element's font-family. */
+
+.destaques__botao {
+    color: var(--vermelho-forte);
+    
+    border-color: var(--vermelho-forte);
+    
+    margin: 0 auto;
+}

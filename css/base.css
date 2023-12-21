@@ -1,0 +1,49 @@
+:root{
+    --branco: #FfF;
+    --azul-claro: #DFE3E5;
+    --vermelho-forte: #B72E2E;
+    --cinza-escuro: #4F4C4C;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;
+        
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --borda-cabecalho-mobile: #103D4A;
+    --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
+
+    --planos-cartao-start: #56CCF2;
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+
+    --montserrat: 'Montserrat', sans-serif
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+/* Os estilos abaixo, se repetem por todo o site: espaçamento lateral dos textos <p>, bem como estilo de botões. Por isso, é boa-prática (e mais fácil), incluí-los aqui. */
+
+.botao{ /* Essa classe será utilizada como base para todos os botões. */
+    text-align: center;
+
+    display: block; /* Os botões desse projeto, são da tag a (link). Portanto, por padrão, é display inline. Se precisarmos mudar, por exemplo, o tamanho dessa tag, não vamos conseguir. Por isso, o display é block. O block gera uma caixa de elemento em bloco e, por isso, fica mais fácil se for necessário manipular. */
+
+    width: 100%;
+    max-width: 350px; /*Limita a largura para quando a tela ficar maior, não ultrapassar este tamanho. */
+    box-sizing: border-box; /* Garante que o elemento vai sempre se manter no tamanho definido no max-width. */
+
+    padding: 1rem 2rem;
+    
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
